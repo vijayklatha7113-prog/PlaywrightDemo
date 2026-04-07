@@ -25,7 +25,7 @@ test.afterEach(async()=>
     
 })
 
-test.describe.only("Group 1", ()=>{
+test.describe("Group 1", ()=>{
 
     test("Test1 ", async ({page})=>
 {
