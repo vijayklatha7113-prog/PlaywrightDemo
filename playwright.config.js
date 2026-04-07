@@ -32,7 +32,7 @@ export default defineConfig({
 */
 reporter: [
   ['html'],
-  ['allure-playwright', { outputFolder: 'my-allure-results' }]
+  ['allure-playwright', { outputFolder: 'allure-results' }]
 ],
  
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
