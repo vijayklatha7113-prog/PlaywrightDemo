@@ -31,9 +31,9 @@ export default defineConfig({
   ],
 */
 reporter: [
-    ['list'],
-    ['allure-playwright']
-  ],
+  ['list'],
+  ['allure-playwright', { outputFolder: 'allure-results' }]
+],
  
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
